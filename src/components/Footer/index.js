@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -10,15 +11,15 @@ function Footer() {
         <div className="content">
             <ul>
                 <li>
-              <a href="mailto:dobsonemily@gmail.com"></a>
+              <Link href="mailto:dobsonemily@gmail.com"></Link>
                 <i className="fa fa-envelope"></i>
                 </li>
                 <li>
-              <a href="https://github.com/dobinator/digital_portfolio"></a>
+              <Link href="https://github.com/dobinator/digital_portfolio"></Link>
                 <i className="fa fa-github"></i>
                 </li>
                 <li>
-              <a href="https://www.linkedin.com/in/emily-dobson-412a5534"></a>
+              <Link href="https://www.linkedin.com/in/emily-dobson-412a5534"></Link>
                 <i className="fa fa-linkedin-square"></i>
                </li>
             </ul>
