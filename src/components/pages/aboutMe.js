@@ -1,12 +1,13 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function aboutMe() {
     return (
-        <div>
-           <section class="hero">
-        <div class="hero-body">
-          <p class="title">Hi</p>
-          <p class="subtitle">I'm Emily</p>
+
+    <section className="hero">
+        <div className="hero-body">
+          <p className="title">Hi</p>
+          <p className="subtitle">I'm Emily</p>
         </div>
         <div>
           <p>
@@ -20,19 +21,15 @@ function aboutMe() {
         <h2>Ravelry</h2>
          <Link>
           <iframe src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-         <p><a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a></p>
+         <p><a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a></p></Link>
 
-         <Link>
+        <h2>Instagram</h2>
+         <Link href= "https://www.instagram.com/emily.felts.good/"></Link>
 
-         </Link>
+        <h2>Photography</h2>
+         <Link href= "#"></Link>
 
-         <Link>
-         </Link>
-
-      </section>
-
-
-        </div>
+         </section>
     )
 }
 

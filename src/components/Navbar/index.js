@@ -29,6 +29,7 @@ function Navbar() {
                About Me
             </Link>
             </li>
+            </ul>
 
         <div className="navbar-end">
          <div className="navbar-item">

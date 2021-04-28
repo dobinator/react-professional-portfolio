@@ -1,15 +1,15 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom"; 
-import Navbar from "/components/Navbar";
-import Container from "/components/Container";
-import Card from "/components/Card";
-import Footer from "/components/Footer";
+import Navbar from "./components/Navbar";
+import Container from "./components/Container";
+import ProjectCard from "./components/ProjectCard";
+import Footer from "./components/Footer";
 import About from "./components/pages/aboutMe";
 
 
 
-function App(props) {
-  render() {
+class App extends Component{
+render(){
   return (
     <Router>
       <div>
@@ -17,7 +17,7 @@ function App(props) {
         <Navbar/>
           <Route exact path="/" render={props=>(
         <section>
-        <Card></Card>
+        <ProjectCard/>
             </section>
           )} />
           <Router path="/About" component ={About}/>
@@ -27,15 +27,7 @@ function App(props) {
     </Router>
   );
 }
-
 }
-
-
-
-
-
-
-
 
 
 export default App;
