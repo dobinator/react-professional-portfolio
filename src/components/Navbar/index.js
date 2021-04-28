@@ -1,7 +1,7 @@
 import React from 'react'; 
 import { Link, useLocation } from "react-router-dom";
 
-function Navbar(props) {
+function Navbar() {
   const location = useLocation(); 
     
     return (
@@ -30,18 +30,19 @@ function Navbar(props) {
             </Link>
             </li>
 
-        <div class="navbar-end">
-         <div class="navbar-item">
-            <div class="field is-grouped">
-                <p class="control">
-                    <a href="mailto:dobsonemily@gmail.com">
-                        <i class="fa fa-envelope"></i>
-                    </a>
+        <div className="navbar-end">
+         <div className="navbar-item">
+            <div className="field is-grouped">
+                <p className="control">
+                    <Link href="mailto:dobsonemily@gmail.com">
+                        <i className="fa fa-envelope"></i>
+                    </Link>
                 </p>
             </div>
           </div>
         </div>
     </nav>
+
     )
 }
 

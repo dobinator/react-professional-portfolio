@@ -17,7 +17,13 @@ function aboutMe() {
             decorate my house.
           </p>
         </div>
-      </section> 
+         <Link>
+         
+         </Link>
+
+      </section>
+
+
         </div>
     )
 }
