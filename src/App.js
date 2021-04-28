@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <Container>
-        <Navbar />
+        <Navbar/>
         <Card>
           </Card>
           <Route exact path="/aboutMe" component={About} />
