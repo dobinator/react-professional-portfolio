@@ -9,6 +9,10 @@ function aboutMe() {
           <p className="title">Hi</p>
           <p className="subtitle">I'm Emily</p>
         </div>
+        <figure className="image is-48x48">
+                <img src="images/circle photo (1).jpg" alt="Placeholder image"/>
+        </figure>
+
         <div>
           <p>
             I'm a creative individual who has recently just started her Coding

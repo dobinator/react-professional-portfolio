@@ -1,0 +1,68 @@
+{
+    "short_name": "react-portfolio",
+    "name": "react-professional-portfolio",
+    "icons": [
+      {
+        "id": 1,
+        "image": "/",
+        "alt": "electric car charger application",
+        "title": "Dude, where's my charger",
+        "github": "https://github.com/dobinator/Dude-wheres-my-charger",
+        "deploy": "https://dobinator.github.io/Dude-wheres-my-charger/",
+        "topics": "Javascript, HTML, Tailwind"
+      },
+      {
+        "id": 2,
+        "image": "/",
+        "alt": "Employee manager application",
+        "title": "Employee Manager",
+        "github": "https://github.com/dobinator/Employee-tracker",
+        "deploy": "https://www.youtube.com/watch?v=kz1szIe2SC4",
+        "topics": "Javascript, Node Js, Inquirer, MySQL"
+      },
+      {
+        "id": 3,
+        "image": "/",
+        "alt": "Book Club application",
+        "title": "Page Turner",
+        "github": "https://github.com/MatthewRonaldJohnson/Page-Turner",
+        "deploy": "https://page-turner-mj-ed-kr.herokuapp.com/",
+        "topics": "Javascript, MySQL,Node Js"
+      },
+      {
+        "id": 4,
+        "image": "/",
+        "alt": "Team HTML generator",
+        "title": "Team Generator",
+        "github": "https://github.com/dobinator/Team-profile-generator",
+        "deploy": "https://youtu.be/J9PksWaVMEc",
+        "topics": "Javascript, Node Js, Inquirer, HTML/CSS"
+      },
+      {
+        "id": 5,
+        "image": "/",
+        "alt": "Technology Blog",
+        "title": "Tech Blog",
+        "github": "https://github.com/dobinator/MVC-blog",
+        "deploy": "image/x-icon",
+        "topics": "Javascript, MySQL, Node Js,HTML/CSS with Bulma"
+      },
+      {
+        "id": 6,
+        "image": "/",
+        "alt": "Employee directory application",
+        "title": "Employee Directory",
+        "github": "https://github.com/dobinator/react-employee-database",
+        "deploy": "https://dobinator.github.io/react-employee-database/",
+        "topics": "React, Javascript, CSS/ Bootstrap"
+      }
+  
+    ],
+  
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
+  

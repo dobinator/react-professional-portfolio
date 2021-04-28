@@ -7,7 +7,8 @@ function Navbar() {
     return (
     <nav className="navbar is-transparent">
         <div className="navbar-brand">
-        <p className="navbar-item is-size-1">ED</p>
+        <p className="navbar-item is-size-1"
+        style= {NavbarFont}>ED</p>
         <div className="navbar-burger" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
@@ -18,14 +19,16 @@ function Navbar() {
             <li className="nav-item">
             <Link 
                 to="/" 
-                className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+                style= {NavbarFont}>
                 Home
             </Link>
                 </li>
                 <li className="nav-item">
             <Link
                 to="/about"
-                className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                style= {NavbarFont}>
                About Me
             </Link>
             </li>
@@ -48,9 +51,8 @@ function Navbar() {
 }
 
 
-const NavbarStyle= {
+const NavbarFont= {
 color: "#7f867b", 
-
-}
+}; 
 
 export default Navbar; 
