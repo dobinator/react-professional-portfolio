@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Card } from 'react-bulma-components'
+import { Card } from 'react-bulma-components'
 // import images from 'images'; 
 
 
