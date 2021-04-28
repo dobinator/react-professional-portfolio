@@ -17,8 +17,16 @@ function aboutMe() {
             decorate my house.
           </p>
         </div>
+        <h2>Ravelry</h2>
          <Link>
-         
+          <iframe src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+         <p><a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a></p>
+
+         <Link>
+
+         </Link>
+
+         <Link>
          </Link>
 
       </section>
