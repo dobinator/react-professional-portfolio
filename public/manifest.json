@@ -1,0 +1,55 @@
+{
+  "short_name": "react-portfolio",
+  "name": "react-professional-portfolio",
+  "icons": [
+    {
+      "id": 1,
+      "name": "Dude, where's my charger",
+      "github": "https://github.com/dobinator/Dude-wheres-my-charger",
+      "deploy": "https://dobinator.github.io/Dude-wheres-my-charger/",
+      "topics": "Javascript, HTML, Tailwind"
+    },
+    {
+      "id": 2,
+      "name": "Employee Manager",
+      "github": "https://github.com/dobinator/Employee-tracker",
+      "deploy": "https://www.youtube.com/watch?v=kz1szIe2SC4",
+      "topics": "Javascript, Node Js, Inquirer, MySQL"
+    },
+    {
+      "id": 3,
+      "name": "Page Turner",
+      "github": "https://github.com/MatthewRonaldJohnson/Page-Turner",
+      "deploy": "https://page-turner-mj-ed-kr.herokuapp.com/",
+      "topics": "Javascript, MySQL,Node Js"
+    },
+    {
+      "id": 4,
+      "name": "Team Generator",
+      "github": "https://github.com/dobinator/Team-profile-generator",
+      "deploy": "https://youtu.be/J9PksWaVMEc",
+      "topics": "Javascript, Node Js, Inquirer, HTML/CSS"
+    },
+    {
+      "id": 5,
+      "name": "Tech Blog",
+      "github": "https://github.com/dobinator/MVC-blog",
+      "deploy": "image/x-icon",
+      "topics": "Javascript, MySQL, Node Js,HTML/CSS with Bulma"
+    },
+    {
+      "id": 6,
+      "name": "Employee Directory",
+      "github": "https://github.com/dobinator/react-employee-database",
+      "deploy": "https://dobinator.github.io/react-employee-database/",
+      "topics": "React, Javascript, CSS/ Bootstrap"
+    }
+
+  ],
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+
