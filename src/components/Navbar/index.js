@@ -7,7 +7,7 @@ function Navbar() {
     return (
     <nav className="navbar is-transparent">
         <div className="navbar-brand">
-        <p className="navbar-item has-text-primary is-size-1">ED</p>
+        <p className="navbar-item is-size-1">ED</p>
         <div className="navbar-burger" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
@@ -45,6 +45,12 @@ function Navbar() {
     </nav>
 
     )
+}
+
+
+const NavbarStyle= {
+color: "#7f867b", 
+
 }
 
 export default Navbar; 
