@@ -4,24 +4,30 @@ import Navbar from "/components/Navbar";
 import Container from "/components/Container";
 import Card from "/components/Card";
 import Footer from "/components/Footer";
+import About from "./components/pages/aboutMe";
 
 
 
-
-function App() {
+function App(props) {
+  render() {
   return (
     <Router>
       <div>
         <Container>
         <Navbar/>
-        <Card>
-          </Card>
-          <Route exact path="/aboutMe" component={About} />
+          <Route exact path="/" render={props=>(
+        <section>
+        <Card></Card>
+            </section>
+          )} />
+          <Router path="/About" component ={About}/>
           </Container>
         <Footer />
       </div>
     </Router>
   );
+}
+
 }
 
 
