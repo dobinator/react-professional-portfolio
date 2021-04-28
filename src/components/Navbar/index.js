@@ -5,10 +5,10 @@ function Navbar(props) {
   const location = useLocation(); 
     
     return (
-    <nav class="navbar is-transparent">
-        <div class="navbar-brand">
-        <p class="navbar-item has-text-primary is-size-1">ED</p>
-        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+    <nav className="navbar is-transparent">
+        <div className="navbar-brand">
+        <p className="navbar-item has-text-primary is-size-1">ED</p>
+        <div className="navbar-burger" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
             <span></span>
@@ -29,7 +29,7 @@ function Navbar(props) {
                About Me
             </Link>
             </li>
-            
+
         <div class="navbar-end">
          <div class="navbar-item">
             <div class="field is-grouped">
@@ -42,8 +42,6 @@ function Navbar(props) {
           </div>
         </div>
     </nav>
-  
-
     )
 }
 
