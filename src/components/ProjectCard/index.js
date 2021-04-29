@@ -2,11 +2,21 @@ import React from "react";
 // import { Card } from "react-bulma-components"
 import data from "../../projects.json";
 
+
+
+// const columnStyle={
+//   is-vcentered
+//   webkit-box-align: center;
+//   ms-flex-align: center;
+//   align-items: center;
+// }
+
+}
 const ProjectCard = (props) => {
   return (
     // edit with links to images
     <div className="container-fluid">
-      <div className="column is-8">
+      <div className="column is-8 is-vcentered">
         {data.map((portfolio) => (
           <div className="card">
             <div className="card-image">

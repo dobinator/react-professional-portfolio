@@ -3,15 +3,16 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section>
+    <div className="columns">
+    <div className="columns is-desktop is-vcentered">
       <div>
-        <p className="title">Hi</p>
+        <p className="title-is-center-is-size-1">Hi</p>
         <p className="subtitle">I'm Emily</p>
       </div>
       <figure className="image is-48x48">
         <img src="images/circle photo (1).jpg" alt="photo of Emily Dobson" />
       </figure>
-
+      <br></br>
       <div>
         <p>
           I'm a creative individual who has recently just started my Coding
@@ -21,6 +22,7 @@ function AboutMe() {
           my house.
         </p>
       </div>
+      <br></br>
       <h2>Ravelry</h2>
       <i className="fab fa-ravelry"></i>
 
@@ -35,11 +37,12 @@ function AboutMe() {
       <p>
         <a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a>
       </p>
-
+    <br></br>
       <h2>Instagram</h2>
       <i className="fab fa-instagram"></i>
       <a href="https://www.instagram.com/emily.felts.good/"></a>
-
+      
+    <br></br>
       <h2>Photography</h2>
       <i class="fab fa-flickr"></i>
 
@@ -60,7 +63,8 @@ function AboutMe() {
         src="//embedr.flickr.com/assets/client-code.js"
         charset="utf-8"
       ></script>
-    </section>
+    </div>
+    </div>
   );
 }
 
