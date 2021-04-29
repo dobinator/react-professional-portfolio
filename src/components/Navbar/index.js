@@ -1,6 +1,13 @@
 import React from 'react'; 
 import { Link, useLocation } from "react-router-dom";
 
+
+
+const NavbarFont= {
+    color: "#7f867b", 
+    }; 
+
+    
 function Navbar() {
   const location = useLocation(); 
     
@@ -32,6 +39,20 @@ function Navbar() {
                About Me
             </Link>
             </li>
+            <li className="nav-item">
+            <Link as= {Link}
+                to="/portfolio"
+                style= {NavbarFont}>
+              Portfolio
+            </Link>
+            </li>
+            <li className="nav-item">
+            <Link as= {Link}
+                to="/Footer"
+                style= {NavbarFont}>
+             Contact
+            </Link>
+            </li>
             </ul>
 
         <div className="navbar-end">
@@ -51,8 +72,5 @@ function Navbar() {
 }
 
 
-const NavbarFont= {
-color: "#7f867b", 
-}; 
 
 export default Navbar; 

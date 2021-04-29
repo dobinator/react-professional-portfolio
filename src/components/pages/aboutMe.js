@@ -2,13 +2,13 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"; 
-
+// import circle photo from "./images/circle photo.jpg"
 
 
 function aboutMe() {
     return (
     <section>
-        <Navbar />
+        <Navbar/>
         <div>
           <p className="title">Hi</p>
           <p className="subtitle">I'm Emily</p>
@@ -20,7 +20,7 @@ function aboutMe() {
 
         <div>
           <p>
-            I'm a creative individual who has recently just started her Coding
+            I'm a creative individual who has recently just started my Coding
             journey. I love to explore various art forms, from knitting (which is
             the first form of coding!), felting, and photography. You can find
             me often in a local thrift store snagging all the cool stuff to
