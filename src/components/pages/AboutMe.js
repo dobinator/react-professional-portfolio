@@ -3,12 +3,12 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="columns">
-    <div className="columns is-desktop is-vcentered">
-      <div>
+<>
+    <div>
         <p className="title-is-center-is-size-1">Hi</p>
         <p className="subtitle">I'm Emily</p>
-      </div>
+    </div>
+
       <figure className="image is-48x48">
         <img src="images/circle photo (1).jpg" alt="photo of Emily Dobson" />
       </figure>
@@ -22,10 +22,10 @@ function AboutMe() {
           my house.
         </p>
       </div>
-      <br></br>
+      <br>
+      </br>
       <h2>Ravelry</h2>
       <i className="fab fa-ravelry"></i>
-
       <iframe
         src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ"
         width="480"
@@ -33,38 +33,42 @@ function AboutMe() {
         frameBorder="0"
         class="giphy-embed"
         allowFullScreen
-      ></iframe>
+        ></iframe>
       <p>
         <a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a>
       </p>
-    <br></br>
+
+    <br>
+    </br>
       <h2>Instagram</h2>
       <i className="fab fa-instagram"></i>
       <a href="https://www.instagram.com/emily.felts.good/"></a>
-      
-    <br></br>
+
+    <br>
+    </br>
       <h2>Photography</h2>
       <i class="fab fa-flickr"></i>
 
       <a
         data-flickr-embed="true"
         href="https://www.flickr.com/photos/192850403@N05"
-      >
+        >
         <img
           src="https://live.staticflickr.com/65535/51145326896_9e757993ba.jpg"
-          width="640"
-          height="480"
+          width="400"
+          height="500"
           alt="Flickr"
-        />
+          />
       </a>
 
       <script
         async
         src="//embedr.flickr.com/assets/client-code.js"
         charset="utf-8"
-      ></script>
-    </div>
-    </div>
+        ></script>
+  
+</>
+   
   );
 }
 

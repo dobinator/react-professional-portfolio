@@ -11,7 +11,6 @@ import data from "../../projects.json";
 //   align-items: center;
 // }
 
-}
 const ProjectCard = (props) => {
   return (
     // edit with links to images
