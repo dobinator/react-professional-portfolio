@@ -1,26 +1,24 @@
-import React from 'react'; 
-import { BrowserRouter as Router, Route } from "react-router-dom"; 
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 // import Container from"./components/Container"
-// import About from "./components/pages/aboutMe";
+import About from "./components/pages/AboutMe";
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-          <ProjectCard/>
-          {/* <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-           <Route exact path="/aboutMe" component={About} />  */}
-
+        <Switch>
+          <Route exact path="/about" component={About} />
+          <ProjectCard />
+        </Switch>
         <Footer />
       </div>
     </Router>
   );
 }
-
 
 export default App;
