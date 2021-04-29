@@ -1,58 +1,56 @@
 [
-      {
-        "id": 1,
-        "image": "dude.jpg",
-        "alt": "electric car charger application",
-        "title": "Dude, where's my charger",
-        "github": "https://github.com/dobinator/Dude-wheres-my-charger",
-        "deploy": "https://dobinator.github.io/Dude-wheres-my-charger/",
-        "tech": "Javascript, HTML, Tailwind"
-      },
-      {
-        "id": 2,
-        "image": "employeeManager.jpg",
-        "alt": "Employee manager application",
-        "title": "Employee Manager",
-        "github": "https://github.com/dobinator/Employee-tracker",
-        "deploy": "https://www.youtube.com/watch?v=kz1szIe2SC4",
-        "tech": "Javascript, Node Js, Inquirer, MySQL"
-      },
-      {
-        "id": 3,
-        "image": "page_Turner.jpg",
-        "alt": "Book Club application",
-        "title": "Page Turner",
-        "github": "https://github.com/MatthewRonaldJohnson/Page-Turner",
-        "deploy": "https://page-turner-mj-ed-kr.herokuapp.com/",
-        "tech": "Javascript, MySQL,Node Js"
-      },
-      {
-        "id": 4,
-        "image": "team.jpg",
-        "alt": "Team HTML generator",
-        "title": "Team Generator",
-        "github": "https://github.com/dobinator/Team-profile-generator",
-        "deploy": "https://youtu.be/J9PksWaVMEc",
-        "tech": "Javascript, Node Js, Inquirer, HTML/CSS"
-      },
-      {
-        "id": 5,
-        "image": "backend.jpg",
-        "alt": "photo of code",
-        "title": "E- Commerce Backend",
-        "github": "https://github.com/dobinator/ecommerce-backend",
-        "deploy": "https://youtu.be/-eKld6YEKYA",
-        "tech": "Javascript, Node Js, mySQL"
-      },
-      {
-        "id": 6,
-        "image": "employeeData.jpg",
-        "alt": "Employee directory application",
-        "title": "Employee Directory",
-        "github": "https://github.com/dobinator/react-employee-database",
-        "deploy": "https://dobinator.github.io/react-employee-database/",
-        "tech": "React, Javascript, CSS/ Bootstrap"
-      }
-  
-    ]
-  
+  {
+    "id": 1,
+    "image": "dude.jpg",
+    "alt": "electric car charger application",
+    "title": "Dude, where's my charger",
+    "github": "https://github.com/dobinator/Dude-wheres-my-charger",
+    "deploy": "https://dobinator.github.io/Dude-wheres-my-charger/",
+    "tech": "Javascript, HTML, Tailwind"
+  },
+  {
+    "id": 2,
+    "image": "employeeManager.jpg",
+    "alt": "Employee manager application",
+    "title": "Employee Manager",
+    "github": "https://github.com/dobinator/Employee-tracker",
+    "deploy": "https://www.youtube.com/watch?v=kz1szIe2SC4",
+    "tech": "Javascript, Node Js, Inquirer, MySQL"
+  },
+  {
+    "id": 3,
+    "image": "page_Turner.jpg",
+    "alt": "Book Club application",
+    "title": "Page Turner",
+    "github": "https://github.com/MatthewRonaldJohnson/Page-Turner",
+    "deploy": "https://page-turner-mj-ed-kr.herokuapp.com/",
+    "tech": "Javascript, MySQL,Node Js"
+  },
+  {
+    "id": 4,
+    "image": "team.jpg",
+    "alt": "Team HTML generator",
+    "title": "Team Generator",
+    "github": "https://github.com/dobinator/Team-profile-generator",
+    "deploy": "https://youtu.be/J9PksWaVMEc",
+    "tech": "Javascript, Node Js, Inquirer, HTML/CSS"
+  },
+  {
+    "id": 5,
+    "image": "backend.jpg",
+    "alt": "photo of code",
+    "title": "E- Commerce Backend",
+    "github": "https://github.com/dobinator/ecommerce-backend",
+    "deploy": "https://youtu.be/-eKld6YEKYA",
+    "tech": "Javascript, Node Js, mySQL"
+  },
+  {
+    "id": 6,
+    "image": "employeeData.jpg",
+    "alt": "Employee directory application",
+    "title": "Employee Directory",
+    "github": "https://github.com/dobinator/react-employee-database",
+    "deploy": "https://dobinator.github.io/react-employee-database/",
+    "tech": "React, Javascript, CSS/ Bootstrap"
+  }
+]

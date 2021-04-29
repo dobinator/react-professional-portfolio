@@ -1,76 +1,76 @@
-import React from 'react'; 
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
-
-const NavbarFont= {
-    color: "#7f867b", 
-    }; 
-
+const NavbarFont = {
+  color: "#7f867b",
+};
 
 function Navbar() {
-  const location = useLocation(); 
-    
-    return (
-    <nav className="navbar is-transparent">
-        <div className="navbar-brand">
-        <p className="navbar-item is-size-1"
-        style= {NavbarFont}>ED</p>
-        <div className="navbar-burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-         </div>
-         </div>
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
-            <Link 
-                to="/" 
-                className={location.pathname === "/" ? "nav-link active" : "nav-link"}
-                style= {NavbarFont}>
-                Home
-            </Link>
-                </li>
-                <li className="nav-item">
-            <Link
-                to="/about"
-                className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                style= {NavbarFont}>
-               About Me
-            </Link>
-            </li>
-            <li className="nav-item">
-            <Link as= {Link}
-                to="/portfolio"
-                style= {NavbarFont}>
-              Portfolio
-            </Link>
-            </li>
-            <li className="nav-item">
-            <Link as= {Link}
-                to="/Footer"
-                style= {NavbarFont}>
-             Contact
-            </Link>
-            </li>
-            </ul>
+  const location = useLocation();
 
-        <div className="navbar-end">
-         <div className="navbar-item">
-            <div className="field is-grouped">
-                <p className="control">
-                    <Link href="mailto:dobsonemily@gmail.com">
-                        <i className="fa fa-envelope"></i>
-                    </Link>
-                </p>
-            </div>
+  return (
+    <nav className="navbar is-transparent">
+      <div className="navbar-brand">
+        <p className="navbar-item is-size-1" style={NavbarFont}>
+          ED
+        </p>
+        <div
+          className="navbar-burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <Link
+            to="/"
+            className={
+              location.pathname === "/" ? "nav-link active" : "nav-link"
+            }
+            style={NavbarFont}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/about"
+            className={
+              location.pathname === "/about" ? "nav-link active" : "nav-link"
+            }
+            style={NavbarFont}
+          >
+            About Me
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/portfolio" style={NavbarFont}>
+            Portfolio
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/Footer" style={NavbarFont}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <div className="field is-grouped">
+            <p className="control">
+              <Link href="mailto:dobsonemily@gmail.com">
+                <i className="fa fa-envelope"></i>
+              </Link>
+            </p>
           </div>
         </div>
+      </div>
     </nav>
+  );
+}
 
-    )
-}; 
-
-
-
-export default Navbar; 
+export default Navbar;
