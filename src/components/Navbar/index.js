@@ -7,7 +7,7 @@ const NavbarFont= {
     color: "#7f867b", 
     }; 
 
-    
+
 function Navbar() {
   const location = useLocation(); 
     
@@ -69,7 +69,7 @@ function Navbar() {
     </nav>
 
     )
-}
+}; 
 
 
 
