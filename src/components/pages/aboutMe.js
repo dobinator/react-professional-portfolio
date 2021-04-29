@@ -1,16 +1,21 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar"; 
+
+
 
 function aboutMe() {
     return (
-
-    <section className="hero">
-        <div className="hero-body">
+    <section>
+        <Navbar />
+        <div>
           <p className="title">Hi</p>
           <p className="subtitle">I'm Emily</p>
         </div>
         <figure className="image is-48x48">
-                <img src="images/circle photo (1).jpg" alt="Placeholder image"/>
+                <img src="images/circle photo (1).jpg" 
+                alt="photo of Emily Dobson"/>
         </figure>
 
         <div>
@@ -22,17 +27,23 @@ function aboutMe() {
             decorate my house.
           </p>
         </div>
-        <h2>Ravelry</h2>
+        <h2>Ravelry</h2><i className="fab fa-ravelry"></i>
          <Link>
-          <iframe src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <iframe src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ" width="480" height="270" 
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
          <p><a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a></p></Link>
 
-        <h2>Instagram</h2>
+        <h2>Instagram</h2><i className="fab fa-instagram"></i>
          <Link href= "https://www.instagram.com/emily.felts.good/"></Link>
 
-        <h2>Photography</h2>
-         <Link href= "#"></Link>
-
+        <h2>Photography</h2><i class="fab fa-flickr"></i>
+        <Link>
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/192850403@N05">
+          <img src="https://live.staticflickr.com/65535/51145326896_9e757993ba.jpg" 
+          width="640" height="480" 
+         alt="Flickr"/></a></Link>
+         <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <Footer/>
          </section>
     )
 }

@@ -1,40 +1,32 @@
 import React from "react";
-// import { Card } from "react-bulma-components";
-// import images from 'images';
-import data from "projects.json"
+// import { Card } from "react-bulma-components"
+import data from "projects.json"; 
 
 
-function ProjectCard() {
+const ProjectCard= (props) =>{
   return (
     // edit with links to images
-
     <div className="container-fluid">
+      <column style = "column is-8">
+        {data.map((portfolio)=> (
       <div className="card">
         <div className="card-image">
-          <figure className="image is-4by3">
-            <img src="#" alt="Placeholder image" />
-          </figure>
+          <figure className="image is-4by3"
+          src={`assets/images/${portfolio.image}`}
+          alt={portfolio.alt}></figure>
         </div>
-        <div className="card-content">
-          <div className="media">
-            <div className="media-left">
-              <figure className="image is-48x48">
-                <img src="#" alt="Placeholder image" />
-              </figure>
-            </div>
             <div className="media-content">
-              <p className="title is-4">John Smith</p>
-              <p className="subtitle is-6">@johnsmith</p>
+              <p className="title is-4">{portfolio.title}</p>
+              <p className="subtitle is-6"></p>
             </div>
-          </div>
-
           <div className="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
-            <a href="#">#responsive</a>
+          {portfolio.tech}
+            <a href={portfolio.github}></a>
+            <a href={portfolio.deploy}></a>
           </div>
         </div>
-      </div>
+        ))}
+      </column>
     </div>
   );
 }
