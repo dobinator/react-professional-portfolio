@@ -7,7 +7,7 @@ body {
   background-color: #e3e4e0;
 }
 
-header {
+/* header {
   border: green 2px solid;
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@ header {
   height: 400px;
   width: 100%;
   color: white;
-}
+} */
 
 nav a {
   text-decoration: none;
@@ -63,7 +63,7 @@ section {
   display: flex;
 }
 
-.card {
+/* .card {
   border: rgb(92, 94, 96) 2px solid;
   border-right: rgb(247, 248, 245) 7px solid;
   min-width: 100px;
@@ -72,7 +72,7 @@ section {
   float: left;
   padding-right: 15px;
   display: block;
-}
+} */
 
 .content img {
   border: rgb(128, 0, 17) 1px solid;
@@ -91,16 +91,16 @@ section {
   margin-left: 2.5%;
 }
 
-.text {
+/* .text {
   justify-content: flex-end;
   position: absolute;
   color: white;
   font-size: 25px;
   width: 25%;
   background-color: #7f867b;
-}
+} */
 
-.card {
+/* .card {
   border-right: rgb(247, 248, 245) 7px solid;
   min-width: 250px;
   min-height: 200px;
@@ -118,9 +118,9 @@ section {
   margin: auto;
   padding: 10px;
   display: flex;
-}
+} */
 
-footer {
+/* footer {
   display: flex;
   color: white;
   justify-content: space-around;
@@ -129,14 +129,14 @@ footer {
   clear: both;
   padding-top: 10px;
   margin-right: 20px;
-}
-.footer ul a {
+} */
+/* .footer ul a {
   text-align: center;
   list-style-type: none;
   text-decoration-line: none;
   font-size: 24px;
   color: white;
-}
+} */
 /* 
 @media screen and (max-width: 992px) {
   #container {

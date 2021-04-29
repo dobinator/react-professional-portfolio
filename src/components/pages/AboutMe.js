@@ -1,12 +1,30 @@
 import React from "react";
 // import circle photo from "./images/circle photo.jpg"
+const styles ={
+title: {
+  "margin": "auto",
+  "width": "85%",
+  "font-size": "38px"
+}, 
+subtitle: {
+  "margin": "auto",
+  "width": "80%",
+  "font-size": "20px"
+},
+intro:{
+  "text-align": "right",
+  "font-size": "18px"
+}
+
+}
+
 
 function AboutMe() {
   return (
 <>
     <div>
-        <p className="title-is-center-is-size-1">Hi</p>
-        <p className="subtitle">I'm Emily</p>
+        <p style={styles.title}>Hi</p>
+        <p style={styles.subtitle}>I'm Emily</p>
     </div>
 
       <figure className="image is-48x48">
@@ -14,9 +32,10 @@ function AboutMe() {
       </figure>
       <br></br>
       <div>
-        <p>
+        <p style= {styles.intro}>
           I'm a creative individual who has recently just started my Coding
-          journey. I love to explore various art forms, from knitting (which is
+          journey.<br>
+          </br>I love to explore various art forms, from knitting (which is
           the first form of coding!), felting, and photography. You can find me
           often in a local thrift store snagging all the cool stuff to decorate
           my house.
