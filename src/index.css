@@ -73,7 +73,11 @@ section {
   padding-right: 15px;
   display: block;
 } */
+.project-card {
+ margin: 0 10px
 
+
+}
 .content img {
   border: rgb(128, 0, 17) 1px solid;
   width: 50%;

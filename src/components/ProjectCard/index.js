@@ -14,9 +14,9 @@ const ProjectCard = (props) => {
     // edit with links to images
     <section className="container-fluid">
     <div className= "columns">
-      <div className= "column is-6 is-centered">
+      <div className= "column" style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
         {data.map((portfolio) => (
-          <div className="card">
+          <div className="card" style= {{margin:"10px", maxWidth: "50%"}}>
             <div className="card-image">
               <img
                 className="image"

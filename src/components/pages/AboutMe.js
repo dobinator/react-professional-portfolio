@@ -28,7 +28,7 @@ function AboutMe() {
     </div>
 
       <figure className="image is-48x48">
-        <img src="photo" alt= "Emily Dobson"/>
+        <img src="./public/images/team.jpg" alt= "Emily Dobson"/>
       </figure>
       <br></br>
       <div>
