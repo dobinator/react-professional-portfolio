@@ -27,7 +27,6 @@ const ProjectCard = (props) => {
             </div>
             <div className="media-content">
               <p className="title is-4">{portfolio.title}</p>
-              <p className="subtitle is-6"></p>
             </div>
             <div className="content">
               {portfolio.tech}

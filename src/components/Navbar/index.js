@@ -9,7 +9,7 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar" role="navigation" aria-lable="main navigation">
+    <nav className="navbar" role="navigation">
       <div className="navbar-brand">
         <p className="navbar-item is-size-1" style={NavbarFont}>
           ED
@@ -22,7 +22,7 @@ function Navbar() {
       </div>
       <div className="navbar-menu">
         <div className="navbar-start">
-            <a className="navbar-item">
+            <div className="navbar-item">
               <Link
                 to="/"
                 className={
@@ -32,8 +32,8 @@ function Navbar() {
               >
                 Home
               </Link>
-            </a>
-            <a className="navbar-item">
+            </div>
+            <div className="navbar-item">
               <Link
                 to="/about"
                 className={
@@ -45,17 +45,17 @@ function Navbar() {
               >
                 About Me
               </Link>
-            </a>
-            <a className="navbar-item">
+            </div>
+            <div className="navbar-item">
               <Link to="/portfolio" style={NavbarFont}>
                 Portfolio
               </Link>
-            </a>
-            <a className="navbar-item">
+            </div>
+            <div className="navbar-item">
               <Link to="/Footer" style={NavbarFont}>
                 Contact
               </Link>
-            </a>
+            </div>
         </div>
         <div className="navbar-end">
           <div className="navbar-item">
