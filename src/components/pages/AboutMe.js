@@ -1,14 +1,14 @@
 import React from "react";
-// import circle photo from "./images/circle photo.jpg"
+// import photo from "../src/images/circle photo.jpg"
 const styles ={
 title: {
   "margin": "auto",
-  "width": "85%",
+  "width": "50%",
   "font-size": "38px"
 }, 
 subtitle: {
   "margin": "auto",
-  "width": "80%",
+  "width": "40%",
   "font-size": "20px"
 },
 intro:{
@@ -28,7 +28,7 @@ function AboutMe() {
     </div>
 
       <figure className="image is-48x48">
-        <img src="images/circle photo (1).jpg" alt="photo of Emily Dobson" />
+        <img src="photo" alt="photo of Emily Dobson" />
       </figure>
       <br></br>
       <div>

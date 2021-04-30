@@ -20,7 +20,7 @@ body {
   color: white;
 } */
 
-nav a {
+/* nav a {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
@@ -37,7 +37,7 @@ nav li {
   margin-right: 5%;
   list-style-type: none;
   color: white;
-}
+} */
 
 header h1 {
   border: green 2px solid;
