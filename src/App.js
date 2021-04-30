@@ -5,6 +5,8 @@ import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 // import Container from"./components/Container"
 import About from "./components/pages/AboutMe";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
 
 function App() {
   return (
