@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
   return (
     // edit with links to images
     <div className="container-fluid">
-      <div className="column is-8 is-centered">
+      <div className="column is-6 is-centered">
         {data.map((portfolio) => (
           <div className="card">
             <div className="card-image">
