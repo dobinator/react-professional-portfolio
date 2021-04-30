@@ -4,16 +4,16 @@ const styles ={
 title: {
   "margin": "auto",
   "width": "50%",
-  "font-size": "38px"
+  "fontSize": "38px"
 }, 
 subtitle: {
   "margin": "auto",
   "width": "40%",
-  "font-size": "20px"
+  "fontSize": "24px"
 },
 intro:{
-  "text-align": "right",
-  "font-size": "18px"
+  "textAlign": "right",
+  "fontSize": "15px"
 }
 
 }
@@ -28,7 +28,7 @@ function AboutMe() {
     </div>
 
       <figure className="image is-48x48">
-        <img src="photo" alt="photo of Emily Dobson" />
+        <img src="photo" alt= "Emily Dobson"/>
       </figure>
       <br></br>
       <div>
@@ -50,7 +50,7 @@ function AboutMe() {
         width="480"
         height="270"
         frameBorder="0"
-        class="giphy-embed"
+        className="giphy-embed"
         allowFullScreen
         ></iframe>
       <p>
@@ -66,7 +66,7 @@ function AboutMe() {
     <br>
     </br>
       <h2>Photography</h2>
-      <i class="fab fa-flickr"></i>
+      <i className="fab fa-flickr"></i>
 
       <a
         data-flickr-embed="true"
@@ -83,7 +83,7 @@ function AboutMe() {
       <script
         async
         src="//embedr.flickr.com/assets/client-code.js"
-        charset="utf-8"
+        charSet="utf-8"
         ></script>
   
 </>
