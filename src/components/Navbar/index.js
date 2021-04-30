@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarFont = {
   color: "#7f867b",
@@ -64,7 +64,7 @@ function Navbar() {
             <div className="field is-grouped">
               <p className="control">
                 <Link href="mailto:dobsonemily@gmail.com">
-                  <i className="fa faEnvelopeOpenO"></i>
+                  {/* <i className="fa faEnvelopeOpenO"></i> */}
                 </Link>
               </p>
             </div>
