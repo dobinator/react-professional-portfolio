@@ -1,5 +1,5 @@
 import React from "react";
-// import photo from "../src/images/circle photo.jpg"
+import { section } from "react-bulma-components"
 const styles ={
 title: {
   "margin": "auto",
@@ -14,21 +14,20 @@ subtitle: {
 intro:{
   "textAlign": "right",
   "fontSize": "15px"
-}
+},
 }
 
 function AboutMe() {
   return (
-<>
-    <div>
-        <p style={styles.title}>Hi</p>
-        <p style={styles.subtitle}>I'm Emily</p>
-    </div>
+    <section class="section is-large">
+      <div class="container">
+          <p style={styles.title}>Hi</p>
+          <p style={styles.subtitle}>I'm Emily</p>
 
       <figure className="image" style= {{width: "25%", height: "auto"}}>
         <img src="./images/circle.png" alt= "Emily Dobson"/>
       </figure>
-      <br></br>
+
       <div>
         <p style= {styles.intro}>
           I'm a creative individual who has recently just started my Coding
@@ -36,11 +35,12 @@ function AboutMe() {
           </br>Prior to learning code, I was a high school art teacher and taught almost every art medium/ media...I love to explore various art forms, from knitting (which is
           the first form of coding!), felting, and photography. You can find me
           often in a local thrift store snagging all the cool stuff to decorate
-          my house.
-        </p>
+          my house. </p>
       </div>
-      <br>
-      </br>
+      </div> 
+      <div class="container">
+        <div className= "columns">
+          <div className= "column">
       <p className="is-size-4"><i className="fab fa-ravelry"></i>Ravelry</p>
       <br></br>
       <iframe
@@ -49,19 +49,23 @@ function AboutMe() {
         height="270"
         frameBorder="0"
         className="giphy-embed"
-        allowFullScreen
-        ></iframe>
+        allowFullScreen></iframe>
       <p>
         <a href="https://giphy.com/gifs/eXIceeqXgUmTuDu7KQ">via GIPHY</a>
       </p>
+    </div>
+    </div>
 
-    <br>
-    </br>
+
+    <div className= "column">
     <p className ="is-size-4"><i className="fab fa-instagram"></i>Instagram</p>
       <a href={"https://www.instagram.com/emily.felts.good/"}></a>
+      <figure style= {{width: "50%", height: "auto"}}>
+        <img src= "./images/insta.PNG" alt= "landing page on instgram account"/>
+      </figure>
+      </div>
 
-    <br>
-    </br>
+      <div className= "column"> 
       <p className="is-size-4"><i className="fab fa-flickr"></i>Flickr</p>
       <a
         data-flickr-embed="true"
@@ -73,16 +77,23 @@ function AboutMe() {
           alt="Flickr"
           />
       </a>
-
       <script
         async
         src="//embedr.flickr.com/assets/client-code.js"
-        charSet="utf-8"
-        ></script>
-  
-</>
+        charSet="utf-8"></script>
+        </div>
+</div>
+</section>
    
   );
 }
 
 export default AboutMe;
+
+
+<section class="section is-large">
+  <h1 class="title">Large section</h1>
+  <h2 class="subtitle">
+    A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+  </h2>
+</section>
