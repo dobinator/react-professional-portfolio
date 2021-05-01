@@ -41,7 +41,7 @@ function AboutMe() {
       </div>
       <br>
       </br>
-      <i className="fab fa-ravelry"></i>
+      <p className="is-size-4"><i className="fab fa-ravelry"></i>Ravelry</p>
       <br></br>
       <iframe
         src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ"
