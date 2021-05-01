@@ -54,14 +54,14 @@ header img {
   position: relative;
 }
 
-section {
+/* section {
   border: rgb(37, 111, 172) 2px solid;
   width: 98%;
   height: auto;
   margin: auto;
   padding: 15px;
   display: flex;
-}
+} */
 
 /* .card {
   border: rgb(92, 94, 96) 2px solid;

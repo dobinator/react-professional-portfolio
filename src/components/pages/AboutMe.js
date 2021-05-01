@@ -57,23 +57,19 @@ function AboutMe() {
 
     <br>
     </br>
-      <h2>Instagram</h2>
-      <i className="fab fa-instagram"></i>
-      <a href="https://www.instagram.com/emily.felts.good/"></a>
+    <p className ="is-size-4"><i className="fab fa-instagram"></i>Instagram</p>
+      <a href={"https://www.instagram.com/emily.felts.good/"}></a>
 
     <br>
     </br>
-      <h2>Photography</h2>
-      <i className="fab fa-flickr"></i>
-
+      <p className="is-size-4"><i className="fab fa-flickr"></i>Flickr</p>
       <a
         data-flickr-embed="true"
-        href="https://www.flickr.com/photos/192850403@N05"
-        >
+        href="https://www.flickr.com/photos/192850403@N05">
         <img
           src="https://live.staticflickr.com/65535/51145326896_9e757993ba.jpg"
-          width="400"
-          height="500"
+          width="300"
+          height="400"
           alt="Flickr"
           />
       </a>
