@@ -15,9 +15,7 @@ intro:{
   "textAlign": "right",
   "fontSize": "15px"
 }
-
 }
-
 
 function AboutMe() {
   return (
@@ -27,8 +25,8 @@ function AboutMe() {
         <p style={styles.subtitle}>I'm Emily</p>
     </div>
 
-      <figure className="image is-48x48">
-        <img src="./public/images/team.jpg" alt= "Emily Dobson"/>
+      <figure className="image" style= {{width: "25%", height: "auto"}}>
+        <img src="./images/circle.jpg" alt= "Emily Dobson"/>
       </figure>
       <br></br>
       <div>
@@ -43,8 +41,8 @@ function AboutMe() {
       </div>
       <br>
       </br>
-      <h2>Ravelry</h2>
       <i className="fab fa-ravelry"></i>
+      <br></br>
       <iframe
         src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ"
         width="480"
