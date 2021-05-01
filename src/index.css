@@ -70,10 +70,10 @@ section {
   min-height: 200px;
   text-align: right;
   float: left;
-  padding-right: 15px;
+  /* padding-right: 15px;
   display: block;
 } */
-.project-card {
+/* .project-card {
  margin: 0 10px
 
 
@@ -93,7 +93,7 @@ section {
 
 .content p {
   margin-left: 2.5%;
-}
+}  */
 
 /* .text {
   justify-content: flex-end;

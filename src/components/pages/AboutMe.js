@@ -26,14 +26,14 @@ function AboutMe() {
     </div>
 
       <figure className="image" style= {{width: "25%", height: "auto"}}>
-        <img src="./images/circle.jpg" alt= "Emily Dobson"/>
+        <img src="./images/circle.png" alt= "Emily Dobson"/>
       </figure>
       <br></br>
       <div>
         <p style= {styles.intro}>
           I'm a creative individual who has recently just started my Coding
           journey.<br>
-          </br>I love to explore various art forms, from knitting (which is
+          </br>Prior to learning code, I was a high school art teacher and taught almost every art medium/ media...I love to explore various art forms, from knitting (which is
           the first form of coding!), felting, and photography. You can find me
           often in a local thrift store snagging all the cool stuff to decorate
           my house.

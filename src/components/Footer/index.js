@@ -1,6 +1,4 @@
 import React from "react";
-import { BrowserRouter as Link } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
@@ -9,18 +7,18 @@ function Footer() {
         <div className="content has-text-centered">
           <p><strong>Contact Me</strong></p>
         </div>
-        <div className="content">
+        <div style= {{border: "rgb(128, 0, 17) 2px solid"}}>
             <ul>
                 <li>
-              <Link href="mailto:dobsonemily@gmail.com"></Link>
-                <i className="fa fa-envelope"></i>
+              <h2 className="is-size-4" href="mailto:dobsonemily@gmail.com"></h2>
+                <i className="fa fa-envelope" ></i>
                 </li>
                 <li>
-              <Link href="https://github.com/dobinator/digital_portfolio"></Link>
+              <h2 className="is-size-4" href="https://github.com/dobinator/digital_portfolio"></h2>
                 <i className="fa fa-github"></i>
                 </li>
                 <li>
-              <Link href="https://www.linkedin.com/in/emily-dobson-412a5534"></Link>
+              <h2 className="is-size-4" href="https://www.linkedin.com/in/emily-dobson-412a5534"></h2>
                 <i className="fa fa-linkedin-square"></i>
                </li>
             </ul>
