@@ -1,26 +1,28 @@
 import React from "react";
-// import { section } from "react-bulma-components"
 const styles ={
 title: {
   "margin": "auto",
   "width": "50%",
-  "fontSize": "38px"
+  "fontSize": "38px",
+  "color": "white"
 }, 
 subtitle: {
   "margin": "auto",
   "width": "40%",
-  "fontSize": "24px"
+  "fontSize": "24px",
+  "color": "white"
 },
 intro:{
   "textAlign": "right",
-  "fontSize": "15px"
+  "fontSize": "15px",
+  "color": "white"
 },
 }
 
 function AboutMe() {
   return (
-    <section class="section is-medium">
-      <div class="container">
+    <div className="section is-medium">
+      <div className="container">
           <p style={styles.title}>Hi</p>
           <p style={styles.subtitle}>I'm Emily</p>
 
@@ -28,7 +30,8 @@ function AboutMe() {
         <img src="./images/circle.png" alt= "Emily Dobson"/>
       </figure>
 
-      <div>
+    <div>
+    <div>
         <p style= {styles.intro}>
           I'm a creative individual who has recently just started my Coding
           journey.<br>
@@ -37,11 +40,14 @@ function AboutMe() {
           often in a local thrift store snagging all the cool stuff to decorate
           my house. </p>
       </div>
-      </div> 
-      <div class="container">
+      </div>
+      </div>
+    
+      <div className="section is-medium">
+      <div className="container">
         <div className= "columns">
           <div className= "column">
-      <p className="is-size-4"><i className="fab fa-ravelry"></i>Ravelry</p>
+      <p className="is-size-4" style={{ color: "white" }}><i className="fab fa-ravelry"></i>Ravelry</p>
       <br></br>
       <iframe
         src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ"
@@ -58,14 +64,14 @@ function AboutMe() {
 
 
     <div className= "column">
-    <p className ="is-size-4"><i className="fab fa-instagram"></i>Instagram</p>
+    <p className ="is-size-4" style={{ color: "white" }}><i className="fab fa-instagram"></i>Instagram</p>
       <a href={"https://www.instagram.com/emily.felts.good/"}></a>
       <figure style= {{width: "50%", height: "auto"}}>
         <img src= "./images/insta.PNG" alt= "landing page on instgram account"/>
       </figure>
       </div>
 
-      <p className="is-size-4"><i className="fab fa-flickr"></i>Flickr</p>
+      <p className="is-size-4" style={{ color: "white" }}><i className="fab fa-flickr"></i>Flickr</p>
       <a
         data-flickr-embed="true"
         href="https://www.flickr.com/photos/192850403@N05">
@@ -79,10 +85,12 @@ function AboutMe() {
       <script
         async
         src="//embedr.flickr.com/assets/client-code.js"
-        charSet="utf-8"></script>
+        charSet="utf-8">
+
+        </script>
         </div>
-</section>
-   
+</div>
+</div>
   );
 }
 

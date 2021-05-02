@@ -1,22 +1,30 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarFont = {
-  color: "#7f867b",
+  color: "white"
 };
+
+// function(){
+// var burger= document.querySelector('.burger');
+// var nav = document.querySelector('#', burger.dataset.target); 
+// burger.addEventListener('click', function(){
+//   burger.classList.toggle('is-active')
+//   nav.classList.toggle('is-active')
+// }); 
+// }
+
 
 function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar" role="navigation">
+    <nav className="navbar" style= {{ backgroundColor:	"#787878"}}role="navigation">
       <div className="navbar-brand">
         <p className="navbar-item is-size-1" style={NavbarFont}>
           ED
         </p>
-        <div className="navbar-burger">
+        <div className="navbar-burger" data target="navMenu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -58,7 +66,7 @@ function Navbar() {
                 Contact
               </Link>
             </div>
-            <div className="navbar-item">
+            <div className="navbar-item ">
               <a href to="#" style={NavbarFont}/>
                 Resume
             </div>
@@ -66,9 +74,9 @@ function Navbar() {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p className="control is-size-4">
-                <Link href="mailto:dobsonemily@gmail.com"><i className="fa fa-envelope-o"></i>
-                  </Link>
+              <p className="is-size-4">
+                <Link href="mailto:dobsonemily@gmail.com"><i className="fa fa-envelope-o" style={{ color: "white" }}></i>
+                  </Link>             
               </p>
             </div>
           </div>

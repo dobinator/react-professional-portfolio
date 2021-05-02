@@ -1,10 +1,9 @@
 import React from "react";
-// import { Card } from "react-bulma-components"
 import data from "../../projects.json";
 
 const ProjectCard = (props) => {
   return (
-    // edit with links to images
+
     <section className="container-fluid">
     <div className= "columns">
       <div className= "column" style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
