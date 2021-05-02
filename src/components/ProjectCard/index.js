@@ -30,9 +30,9 @@ const ProjectCard = (props) => {
             </div>
             <div className="content">
               <div>
-              <a href={portfolio.github}>GitHub</a>
+              <a href={portfolio.github}><i className="fa fa-github">Github</i></a>
               <br></br>
-              <a href={portfolio.deploy}>Deployed</a>
+              <a href={portfolio.deploy}><i className="fa fa-external-link-square">Deployed</i></a>
             </div>
             </div>
           </div>

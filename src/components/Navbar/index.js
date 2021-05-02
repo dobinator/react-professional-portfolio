@@ -58,14 +58,17 @@ function Navbar() {
                 Contact
               </Link>
             </div>
+            <div className="navbar-item">
+              <a href to="#" style={NavbarFont}/>
+                Resume
+            </div>
         </div>
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p className="control">
-                <Link href="mailto:dobsonemily@gmail.com">
-                  {/* <i className="fa faEnvelopeOpenO"></i> */}
-                </Link>
+              <p className="control is-size-4">
+                <Link href="mailto:dobsonemily@gmail.com"><i className="fa fa-envelope-o"></i>
+                  </Link>
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { section } from "react-bulma-components"
+// import { section } from "react-bulma-components"
 const styles ={
 title: {
   "margin": "auto",
@@ -19,7 +19,7 @@ intro:{
 
 function AboutMe() {
   return (
-    <section class="section is-large">
+    <section class="section is-medium">
       <div class="container">
           <p style={styles.title}>Hi</p>
           <p style={styles.subtitle}>I'm Emily</p>
@@ -65,7 +65,6 @@ function AboutMe() {
       </figure>
       </div>
 
-      <div className= "column"> 
       <p className="is-size-4"><i className="fab fa-flickr"></i>Flickr</p>
       <a
         data-flickr-embed="true"
@@ -82,7 +81,6 @@ function AboutMe() {
         src="//embedr.flickr.com/assets/client-code.js"
         charSet="utf-8"></script>
         </div>
-</div>
 </section>
    
   );
@@ -91,9 +89,9 @@ function AboutMe() {
 export default AboutMe;
 
 
-<section class="section is-large">
+{/* <section class="section is-large">
   <h1 class="title">Large section</h1>
   <h2 class="subtitle">
     A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
   </h2>
-</section>
+</section> */}
