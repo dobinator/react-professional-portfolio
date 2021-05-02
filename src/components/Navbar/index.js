@@ -1,9 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const NavbarFont = {
-  color: "white",
-};
+
 
 // function(){
 // var burger= document.querySelector('.burger');
@@ -19,9 +17,9 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar" style= {{ backgroundColor:	"#787878", border: "2px solid white"}}role="navigation">
+    <nav className="navbar" style= {{ backgroundColor:"#B0B0B0", border: "2px solid white"}}role="navigation">
       <div className="navbar-brand">
-        <p className="navbar-item is-size-1" style={NavbarFont}>
+        <p className="navbar-item is-size-1" style={{color: "#26A69A"}}>
           ED
         </p>
         <div className="navbar-burger" data target="navMenu">
@@ -38,7 +36,7 @@ function Navbar() {
                 className={
                   location.pathname === "/" ? "nav-link active" : "nav-link"
                 }
-                style={NavbarFont}
+                style={{color: "white"}}
               >
                 Home
               </Link>
@@ -51,23 +49,23 @@ function Navbar() {
                     ? "nav-link active"
                     : "nav-link"
                 }
-                style={NavbarFont}
+                style={{color: "white"}}
               >
                 About Me
               </Link>
             </div>
             <div className="navbar-item">
-              <Link to="/portfolio" style={NavbarFont}>
+              <Link to="/portfolio" style={{ color: "white" }}>
                 Portfolio
               </Link>
             </div>
             <div className="navbar-item">
-              <Link to="/Footer" style={NavbarFont}>
+              <Link to="/Footer" style={{color: "white"}}>
                 Contact
               </Link>
             </div>
             <div className="navbar-item"style={{color: "white"}}>
-              <a href to="#" style={NavbarFont}/>
+              <a href to="#" style={{color: "white"}} />
                 Resume
             </div>
         </div>
