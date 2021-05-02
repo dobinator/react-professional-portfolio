@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 import About from "./components/pages/AboutMe";
+import Hero from "./components/Hero"; 
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Hero/>
         <Switch>
           <Route exact path="/about" component={About} />
           <ProjectCard />

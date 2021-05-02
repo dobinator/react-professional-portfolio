@@ -5,7 +5,7 @@ function Footer() {
     <section>
       <footer
         className="footer"
-        style={{ backgroundColor: "#B0B0B0"}}
+        style={{ backgroundColor:  "#414a4c"}}
       >
         <div className="content has-text-centered">
           <p className="title is-4" style={{ color: "white", borderTop:"3px solid white"}}>
