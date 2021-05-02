@@ -26,7 +26,7 @@ function Navbar() {
             className={
               location.pathname === "/" ? "nav-link active" : "nav-link"
             }
-            style={{ color: "#48d1cc", fontSize: "35px" }}
+            style={{ color: "#48d1cc", fontSize: "40px" }}
           >
             Emily Dobson
           </Link>
@@ -61,7 +61,7 @@ function Navbar() {
           </div>
         </div>
         <div className="navbar-item">
-          <Link to="/Footer" style={{ color: "white",fontSize:"18px"}}>
+          <Link to="/Footer" style={{ color: "white", fontSize:"18px"}}>
             Contact
           </Link>
         </div>

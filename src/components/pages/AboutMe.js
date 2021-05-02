@@ -34,7 +34,7 @@ function AboutMe() {
         <div>
           <div>
             <p style={styles.intro}>
-              I'm a creative individual who has recently just started my Coding
+              I'm a creative individual who has recently started my Coding
               journey.<br></br>Prior to learning code, I was a high school art
               teacher for 15 years and taught almost every art medium/ media(
               from Computer Graphics to Introduction to Art to AP Studio)...I
