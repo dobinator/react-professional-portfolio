@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const NavbarFont = {
-  color: "white"
+  color: "white",
 };
 
 // function(){
@@ -19,7 +19,7 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar" style= {{ backgroundColor:	"#787878"}}role="navigation">
+    <nav className="navbar" style= {{ backgroundColor:	"#787878", border: "2px solid white"}}role="navigation">
       <div className="navbar-brand">
         <p className="navbar-item is-size-1" style={NavbarFont}>
           ED
@@ -66,7 +66,7 @@ function Navbar() {
                 Contact
               </Link>
             </div>
-            <div className="navbar-item ">
+            <div className="navbar-item"style={{color: "white"}}>
               <a href to="#" style={NavbarFont}/>
                 Resume
             </div>

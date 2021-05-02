@@ -11,18 +11,4 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-header h1 {
-  border: green 2px solid;
-  font-size: 2.8rem;
-  margin-top: 7%;
-  max-width: 35%;
-}
-
-header img {
-  border: green 2px solid;
-  height: 150px;
-  width: 120px;
-  border-radius: 5%;
-  position: relative;
-}
 
