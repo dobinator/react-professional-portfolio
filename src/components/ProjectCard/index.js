@@ -2,13 +2,6 @@ import React from "react";
 // import { Card } from "react-bulma-components"
 import data from "../../projects.json";
 
-// const styles={
-//  column: {
-//   "webkitBoxAlign": "center",
-//   "msFlexAlign": "center",
-//   "alignItems": "center",
-//   "display": "flex"
-// },
 const ProjectCard = (props) => {
   return (
     // edit with links to images
@@ -25,15 +18,14 @@ const ProjectCard = (props) => {
               />
             </div>
             <div className="media-content">
-              <p className="title is-4">{portfolio.title}</p>
-              <p className= "subtitle is-6"> {portfolio.tech}</p>
+              <p className="title is-4" style= {{ textAlign: "center" }}>{portfolio.title}</p>
+              <p className= "subtitle is-6" style= {{ textAlign: "center" }}> {portfolio.tech}</p>
             </div>
-            <div className="content">
+            <div className="content"style= {{ textAlign: "center" }}>
               <div>
-              <a href={portfolio.github}><i className="fa fa-github">Github</i></a>
-              <br></br>
-              <a href={portfolio.deploy}><i className="fa fa-external-link-square">Deployed</i></a>
+              <a href={portfolio.github}><i className="fa fa-github"> Github</i></a>
             </div>
+              <a href={portfolio.deploy}><i className="fa fa-external-link-square"> Deployed</i></a>
             </div>
           </div>
         ))}
