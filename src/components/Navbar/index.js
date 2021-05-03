@@ -31,6 +31,7 @@ function Navbar() {
             Emily Dobson
           </Link>
         </p>
+
         <div className="navbar-burger" data target="navMenu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -40,6 +41,7 @@ function Navbar() {
       <div className="navbar-menu">
         <div className="navbar-start">
           <div className="navbar-item">
+
             <Link
               to="/about"
               className={
@@ -49,19 +51,26 @@ function Navbar() {
             >
               About Me
             </Link>
-          </div>
+
           <div className="navbar-item">
-            <Link to="/portfolio" style={{ color: "white", fontSize:"18px"}}>
+            <Link to="/portfolio" style={{ color: "white", fontSize: "18px" }}>
               Portfolio
             </Link>
           </div>
-          <div className="navbar-item" style={{ color: "white", fontSize:"18px"}}>
-            <a href to="#" />
+
+          <Link
+            to="/resume"
+            className={
+              location.pathname === "/about" ? "nav-link active" : "nav-link"
+            }
+            style={{ color: "white", fontSize: "18px" }}
+          >
             Resume
-          </div>
-        </div>
+          </Link>
+
+    
         <div className="navbar-item">
-          <Link to="/Footer" style={{ color: "white", fontSize:"18px"}}>
+          <Link to="/Footer" style={{ color: "white", fontSize: "18px" }}>
             Contact
           </Link>
         </div>
@@ -79,6 +88,8 @@ function Navbar() {
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </nav>
   );

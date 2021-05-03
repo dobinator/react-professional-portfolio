@@ -5,6 +5,7 @@ import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 import About from "./components/pages/AboutMe";
 import Hero from "./components/Hero"; 
+import Resume from "./components/pages/Resume"; 
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Hero/>
         <Switch>
           <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={Resume} />
           <ProjectCard />
         </Switch>
         <Footer />
