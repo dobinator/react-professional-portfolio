@@ -39,7 +39,7 @@ function AboutMe() {
               teacher for 15 years and taught almost every art medium/ media(
               from Computer Graphics to Introduction to Art to AP Studio)...I
               have both a Bachelors degree in Fine Art and a Master's degree in
-              Art. My speciality was photography- and I love all that analog
+              Art. My speciality was photography- fascinated by all that analog
               technology! The smell of a darkroom brings back so many memories.
               I enjoy exploring various art forms, from knitting (which is the
               first form of coding!), felting, and photography. You can find me

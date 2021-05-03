@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
       <div className= "column" 
       style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
         {data.map((portfolio) => (
-          <div className="card" style= {{margin:"20px", maxWidth: "50%", borderRadius: "20px"}}>
+          <div className="card" style= {{margin:"20px", maxWidth: "50%", borderRadius: "15px"}}>
         <p className="title is-4" style= {{ textAlign: "center" }}>{portfolio.title}</p>
         <p className="content" style= {{textAlign: "center"}}>{portfolio.description}</p>
             <div className="card-image">
