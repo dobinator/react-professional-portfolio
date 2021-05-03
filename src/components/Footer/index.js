@@ -8,7 +8,7 @@ function Footer() {
         style={{ backgroundColor:  "#414a4c"}}
       >
         <div className="content">
-          <p className="title is-4" style={{ color: "white", borderTop:"3px solid #9457eb"}}>
+          <p className="title is-4 is-center" style={{ color: "white", borderTop:"3px solid #9457eb"}}>
             <strong>Contact Me</strong>
           </p>
           <h2 className="is-size-3" style={{ color: "white" }}>

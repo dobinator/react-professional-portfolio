@@ -4,6 +4,7 @@
     "image": "dude.jpg",
     "alt": "electric car charger application",
     "title": "Dude, where's my charger",
+    "description": "An app where the user can swiftly find an electric charger station within a specified distance. This application uses two api keys for location.", 
     "github": "https://github.com/dobinator/Dude-wheres-my-charger",
     "deploy": "https://dobinator.github.io/Dude-wheres-my-charger/",
     "tech": "Javascript, HTML, Tailwind"
@@ -13,6 +14,7 @@
     "image": "employeeManager.jpg",
     "alt": "Employee manager application",
     "title": "Employee Manager",
+    "description": "An app that allows a user to quickly update employee data in a database.", 
     "github": "https://github.com/dobinator/Employee-tracker",
     "deploy": "https://www.youtube.com/watch?v=kz1szIe2SC4",
     "tech": "Javascript, Node Js, Inquirer, MySQL"
@@ -22,6 +24,7 @@
     "image": "page_Turner.jpg",
     "alt": "Book Club application",
     "title": "Page Turner",
+    "description": "A online book club for book enthusiasts who can post their opinions on books. This app uses Google book as an api.", 
     "github": "https://github.com/MatthewRonaldJohnson/Page-Turner",
     "deploy": "https://page-turner-mj-ed-kr.herokuapp.com/",
     "tech": "Javascript, MySQL,Node Js"
@@ -31,24 +34,27 @@
     "image": "team.jpg",
     "alt": "Team HTML generator",
     "title": "Team Generator",
+    "description":" This is a terminal prompted app which generates a HTML document thru prompts.",
     "github": "https://github.com/dobinator/Team-profile-generator",
     "deploy": "https://youtu.be/J9PksWaVMEc",
-    "tech": "Javascript, Node Js, Inquirer, HTML/CSS"
+    "tech": "Javascript, Node Js, Inquirer, HTML/CSS with Bootstrap"
   },
   {
     "id": 5,
     "image": "backend.jpg",
     "alt": "photo of code",
     "title": "E- Commerce Backend",
+    "description":"This app is the backend of an ecommerce app, where the routes were created and using Express, mySQL, and Insomnia were required.",
     "github": "https://github.com/dobinator/ecommerce-backend",
     "deploy": "https://youtu.be/-eKld6YEKYA",
-    "tech": "Javascript, Node Js, mySQL"
+    "tech": "Javascript, Node Js, mySQL, Express"
   },
   {
     "id": 6,
     "image": "employeeData.jpg",
     "alt": "Employee directory application",
     "title": "Employee Directory",
+    "description":"This app allows a business owner or manager to quickly view and sort 200 empoloyees by name.",
     "github": "https://github.com/dobinator/react-employee-database",
     "deploy": "https://dobinator.github.io/react-employee-database/",
     "tech": "React, Javascript, CSS/ Bootstrap"

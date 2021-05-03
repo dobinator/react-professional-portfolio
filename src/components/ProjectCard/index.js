@@ -6,9 +6,13 @@ const ProjectCard = (props) => {
 
     <section className="container-fluid">
     <div className= "columns">
-      <div className= "column" style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <div className= "column" 
+      style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <div className="media-content">
         {data.map((portfolio) => (
           <div className="card" style= {{margin:"10px", maxWidth: "50%"}}>
+        <p className="title is-4" style= {{ textAlign: "center" }}>{portfolio.title}</p>
+        <p className="content" style= {{textAlign: "center"}}>{portfolio.description}</p>
             <div className="card-image">
               <img
                 className="image"
@@ -17,7 +21,6 @@ const ProjectCard = (props) => {
               />
             </div>
             <div className="media-content">
-              <p className="title is-4" style= {{ textAlign: "center" }}>{portfolio.title}</p>
               <p className= "subtitle is-6" style= {{ textAlign: "center" }}> {portfolio.tech}</p>
             </div>
             <div className="content"style= {{ textAlign: "center" }}>
@@ -27,8 +30,10 @@ const ProjectCard = (props) => {
               <a href={portfolio.deploy}><i className="fa fa-external-link-square"> Deployed</i></a>
             </div>
           </div>
+    
         ))}
-      </div>
+    </div>
+    </div>
     </div>
     </section>
   );
