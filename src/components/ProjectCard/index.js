@@ -8,9 +8,8 @@ const ProjectCard = (props) => {
     <div className= "columns">
       <div className= "column" 
       style= {{display: "flex", flexDirection: "column", alignItems: "center"}}>
-      <div className="media-content">
         {data.map((portfolio) => (
-          <div className="card" style= {{margin:"10px", maxWidth: "50%"}}>
+          <div className="card" style= {{margin:"20px", maxWidth: "50%", borderRadius: "20px"}}>
         <p className="title is-4" style= {{ textAlign: "center" }}>{portfolio.title}</p>
         <p className="content" style= {{textAlign: "center"}}>{portfolio.description}</p>
             <div className="card-image">
@@ -32,7 +31,6 @@ const ProjectCard = (props) => {
           </div>
     
         ))}
-    </div>
     </div>
     </div>
     </section>
