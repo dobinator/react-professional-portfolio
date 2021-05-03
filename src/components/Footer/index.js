@@ -7,7 +7,7 @@ function Footer() {
         className="footer"
         style={{ backgroundColor:  "#414a4c"}}
       >
-        <div className="content has-text-centered">
+        <div className="content">
           <p className="title is-4" style={{ color: "white", borderTop:"3px solid #9457eb"}}>
             <strong>Contact Me</strong>
           </p>

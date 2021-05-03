@@ -1,4 +1,5 @@
 import React from "react";
+
 const styles = {
   title: {
     margin: "auto",
@@ -26,7 +27,6 @@ function AboutMe() {
       <div className="container">
         <p style={styles.title}>Hi,</p>
         <p style={styles.subtitle}>I'm Emily</p>
-
         <figure className="image" style={{ width: "25%", height: "auto" }}>
           <img src="./images/circle.png" alt="Emily Dobson" />
         </figure>
@@ -41,10 +41,10 @@ function AboutMe() {
               have both a Bachelors degree in Fine Art and a Master's degree in
               Art. My speciality was photography- and I love all that analog
               technology! The smell of a darkroom brings back so many memories.
-              I love to explore various art forms, from knitting (which is the
+              I enjoy exploring various art forms, from knitting (which is the
               first form of coding!), felting, and photography. You can find me
               often in a local thrift store snagging all the cool stuff to
-              decorate my house.{" "}
+              decorate my house.
             </p>
           </div>
         </div>
