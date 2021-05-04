@@ -42,7 +42,7 @@ function Navbar() {
           >
           Portfolio
           </Link>
-          <Link to="/notes" className="navbar-item" 
+          <Link to="/contact" className="navbar-item" 
           style={{ color: "white", fontSize: "18px" }}onClick={toggleBurgerMenu}>
             Contact
           </Link>
