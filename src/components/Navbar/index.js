@@ -43,8 +43,8 @@ function Navbar() {
           Portfolio
           </Link>
 
-          <Link className="navbar-item"style={{ color: "white", fontSize: "18px" }} onClick={toggleBurgerMenu}>
-          <a href="mailto:dobsonemily@gmail.com">
+          <Link className="navbar-item" onClick={toggleBurgerMenu}>
+          <a href="mailto:dobsonemily@gmail.com"style={{ color: "white", fontSize: "18px" }}>
             Contact </a>
             </Link> 
 

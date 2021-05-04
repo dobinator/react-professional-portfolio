@@ -13,23 +13,23 @@ function Footer() {
           </p>
         <div className= "columns">
           <div className= "column">
-          <h2 className="is-size-3" style={{ color: "white"}}>
-             <a href="mailto:dobsonemily@gmail.com"><i className="fa fa-envelope"></i></a>
+          <h2 className="is-size-3">
+             <a href="mailto:dobsonemily@gmail.com"><i className="fa fa-envelope"style={{ color: "white" }}></i></a>
           </h2>
           </div>
           <div className= "column">
-          <h2 className="is-size-3" style={{ color: "white" }}>
-           <a href="https://github.com/dobinator/digital_portfolio"><i className="fa fa-github"></i></a>
+          <h2 className="is-size-3">
+           <a href="https://github.com/dobinator"><i className="fa fa-github"style={{ color: "white" }}></i></a>
           </h2>
            </div>
            <div className= "column">
-          <h2 className="is-size-3" style={{ color: "white", padding: "20px"}}>
-          <a href="https://www.linkedin.com/in/emily-dobson-412a5534"><i className="fa fa-linkedin-square"></i></a>
+          <h2 className="is-size-3">
+          <a href="https://www.linkedin.com/in/emily-dobson-412a5534/"><i className="fa fa-linkedin-square"style={{ color: "white" }}></i></a>
           </h2>
           </div>
           <div className= "column">
-          <h2 className="is-size-3" style={{ color: "white"}}>
-         <a href="tel:+4106936440"><i className="fas fa-mobile"></i></a>
+          <h2 className="is-size-3">
+         <a href="tel:+4106936440"><i className="fas fa-mobile"style={{ color: "white"}}></i></a>
           </h2>
           </div>
         </div>
