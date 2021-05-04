@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Document } from 'react-pdf'
 
 function Navbar() {
   const location = useLocation();
@@ -31,26 +32,26 @@ function Navbar() {
       <div id="navbarBasic" className="navbar-menu">
         <div className="navbar-start">
           <Link to="/about" className="navbar-item" 
-           style={{ color: "white", fontSize: "18px" }}onClick={toggleBurgerMenu}>
+           style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}onClick={toggleBurgerMenu}>
             About Me
           </Link>
           <Link
             to="/"
-            style={{ color: "white", fontSize: "18px"}}
+            style={{ color: "white", backgroundColor: "#414a4c",fontSize: "18px"}}
             className="navbar-item"
             onClick={toggleBurgerMenu}
           >
           Portfolio
           </Link>
 
-          <Link className="navbar-item" onClick={toggleBurgerMenu}>
-          <a href="mailto:dobsonemily@gmail.com"style={{ color: "white", fontSize: "18px" }}>
+          <Link className="navbar-item" style={{backgroundColor: "#414a4c"}} onClick={toggleBurgerMenu}>
+          <a href="mailto:dobsonemily@gmail.com"style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}>
             Contact </a>
             </Link> 
 
 
-            <Link className="navbar-item"  style={{ color: "white", fontSize: "18px" }}onClick={toggleBurgerMenu}>   
-           <a href= "./images/resume_pdf.pdf">
+            <Link className="navbar-item" style= {{ backgroundColor: "#414a4c"}} onClick={toggleBurgerMenu}>   
+           <a href= "./images/resume_pdf.pdf"style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}>
             Resume
           </a>
           </Link>

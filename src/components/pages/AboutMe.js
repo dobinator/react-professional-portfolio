@@ -1,4 +1,5 @@
 import React from "react";
+import { Document } from 'react-pdf'
 
 const styles = {
   title: {
@@ -51,7 +52,7 @@ function AboutMe() {
               decorate my house.
                 <br></br>
                 <br></br>
-              <a href= "./images/resume_pdf.pdf"></a><p>link to my Resume</p>
+              <a href= "images/resume_pdf.pdf" download><p>link to my Resume</p></a>
             </p>
           </div>
         </div>
