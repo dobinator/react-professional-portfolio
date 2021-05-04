@@ -41,10 +41,15 @@ function AboutMe() {
               have both a Bachelors degree in Fine Art and a Master's degree in
               Art. My speciality was photography- fascinated by all that analog
               technology! The smell of a darkroom brings back so many memories.
+              <br></br>
               I enjoy exploring various art forms, from knitting (which is the
-              first form of coding!), felting, and photography. You can find me
-              often in a local thrift store snagging all the cool stuff to
+              first form of coding!), felting, and photography. I taught myself 
+              how to knit from reading books and have tackled intarsia, cables, and 
+              slowly treading into brioche. This year I made everyone in my family a hat for the holiday season. 
+              You can find me often in a local thrift store snagging all the cool stuff to
               decorate my house.
+
+              <h1>Resume<a href= "./images/resume_pdf.pdf"></a></h1>
             </p>
           </div>
         </div>

@@ -35,103 +35,29 @@ function Navbar() {
             About Me
           </Link>
           <Link
-            to="/contact"
-            style={{ color: "white", fontSize: "18px" }}
+            to="/"
+            style={{ color: "white", fontSize: "18px"}}
             className="navbar-item"
             onClick={toggleBurgerMenu}
           >
           Portfolio
           </Link>
-          <Link to="/contact" className="navbar-item" 
-          style={{ color: "white", fontSize: "18px" }}onClick={toggleBurgerMenu}>
-            Contact
-          </Link>
-          <a
-           style={{ color: "white", fontSize: "18px" }}
-            // href="../../../public/images/resume_pdf.pdf"
-            className="navbar-item"
-          >
+
+          <Link className="navbar-item"style={{ color: "white", fontSize: "18px" }} onClick={toggleBurgerMenu}>
+          <a href="mailto:dobsonemily@gmail.com">
+            Contact </a>
+            </Link> 
+
+
+            <Link className="navbar-item"  style={{ color: "white", fontSize: "18px" }}onClick={toggleBurgerMenu}>   
+           <a href= "./images/resume_pdf.pdf">
             Resume
           </a>
+          </Link>
         </div>
       </div>
     </nav>
-    
-    //   <div className="navbar-brand">
-    //     <p className="navbar-item">
-    //       <Link
-    //         to="/"
-    //         className={
-    //           location.pathname === "/" ? "nav-link active" : "nav-link"
-    //         }
-    //         style={{ color: "#48d1cc", fontSize: "40px" }}
-    //       >
-    //      
-    //       </Link>
-    //     </p>
-
-    //     <div className="navbar-burger" data target="navMenu">
-    //       <span aria-hidden="true"></span>
-    //       <span aria-hidden="true"></span>
-    //       <span aria-hidden="true"></span>
-    //     </div>
-    //   </div>
-    //   <div className="navbar-menu">
-    //     <div className="navbar-start">
-    //       <div className="navbar-item">
-    //         <Link
-    //           to="/about"
-    //           className={
-    //             location.pathname === "/about" ? "nav-link active" : "nav-link"
-    //           }
-    //           style={{ color: "white", fontSize: "18px" }}
-    //         >
-    //           About Me
-    //         </Link>
-
-    //         <div className="navbar-item">
-    //           <Link
-    //             to="/portfolio"
-    //             style={{ color: "white", fontSize: "18px" }}
-    //           >
-    //             Portfolio
-    //           </Link>
-    //         </div>
-
-    //         <Link
-    //           to="/resume"
-    //           className={
-    //             location.pathname === "/about" ? "nav-link active" : "nav-link"
-    //           }
-    //           style={{ color: "white", fontSize: "18px" }}
-    //         >
-    //           Resume
-    //         </Link>
-
-    //         <div className="navbar-item">
-    //           <Link to="/Footer" style={{ color: "white", fontSize: "18px" }}>
-    //             Contact
-    //           </Link>
-    //         </div>
-    //         <div className="navbar-end">
-    //           <div className="navbar-item">
-    //             <div className="field is-grouped">
-    //               <p className="is-size-4">
-    //                 <Link>
-    //                   <i
-    //                     className="fa fa-envelope-o"
-    //                     href="mailto:dobsonemily@gmail.com"
-    //                     style={{ color: "white" }}
-    //                   ></i>
-    //                 </Link>
-    //               </p>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </nav>
+  
   );
 }
 
