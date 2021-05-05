@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar";
 import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 import About from "./components/pages/AboutMe";
-import Hero from "./components/Hero"; 
+import Hero from "./components/Hero";
+import Resume from "./components/pages/Resume"; 
 
 
 
@@ -15,8 +16,9 @@ function App() {
         <Navbar />
         <Hero/>
         <Switch>
+          <Route exact path= "/" component={ProjectCard}/>
           <Route exact path="/about" component={About} />
-          <ProjectCard />
+          <Route exact path="/resume" component={Resume} />
         </Switch>
         <Footer />
       </div>

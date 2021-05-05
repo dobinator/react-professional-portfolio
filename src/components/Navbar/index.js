@@ -50,10 +50,11 @@ function Navbar() {
             </Link> 
 
 
-            <Link className="navbar-item" style= {{ backgroundColor: "#414a4c"}} onClick={toggleBurgerMenu}>   
-           <a href= "./images/resume_pdf.pdf"style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}>
+            <Link 
+            to="/resume" 
+            className="navbar-item" onClick={toggleBurgerMenu}   
+           style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}>
             Resume
-          </a>
           </Link>
         </div>
       </div>
