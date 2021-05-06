@@ -52,7 +52,7 @@ function AboutMe() {
               decorate my house.
                 <br></br>
                 <br></br>
-              <a href= "images/resume_pdf.pdf" download><p>link to my Resume</p></a>
+              <a href= "images/resume_pdf.pdf" download><p style={{color: "#48d1cc"}}>link to my Resume</p></a>
             </p>
           </div>
         </div>

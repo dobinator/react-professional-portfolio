@@ -18,6 +18,7 @@ function Navbar() {
         </Link>
         <a
           role="button"
+          style={{color:"#48d1cc"}}
           className="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
@@ -32,7 +33,8 @@ function Navbar() {
       <div id="navbarBasic" className="navbar-menu">
         <div className="navbar-start">
           <Link to="/about" className="navbar-item" 
-           style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}onClick={toggleBurgerMenu}>
+           style={{ color: "white", backgroundColor: "#414a4c", fontSize: "18px" }}
+           onClick={toggleBurgerMenu}>
             About Me
           </Link>
           <Link
