@@ -66,7 +66,7 @@ function AboutMe() {
                 <i className="fab fa-ravelry"></i>Ravelry
               </p>
               <br></br>
-              <iframe
+              <iframe title="This is a unique title" 
                 src="https://giphy.com/embed/eXIceeqXgUmTuDu7KQ"
                 width="480"
                 height="270"

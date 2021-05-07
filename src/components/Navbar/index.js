@@ -15,8 +15,7 @@ function Navbar() {
         className="navbar-item">
         Emily Dobson
         </Link>
-        <a
-          role="button"
+        <button
           style={{color:"#48d1cc"}}
           className="navbar-burger burger"
           aria-label="menu"
@@ -27,7 +26,7 @@ function Navbar() {
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </button>
       </div>
       <div id="navbarBasic" className="navbar-menu">
         <div className="navbar-start">
