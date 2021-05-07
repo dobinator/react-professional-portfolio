@@ -1,7 +1,7 @@
 # React Professional Porfolio
 
 ## Description
-This is a porfolio created to show skills acquired during my 12 week coding bootcamp. The porfolio has links to seperate pages for viewing my resume and a little introduction about myself. I have actually enjoyed working on the front end of React and would like to become more knowledgable with this plaform.
+This is a porfolio created to show skills acquired during my 12 week coding bootcamp. The porfolio has links to seperate pages for viewing my resume and a little introduction about myself. I have actually enjoyed working on the front end of React and would like to become more knowledgable with this platform.
 
 ## Table of Contents
 * Installation
