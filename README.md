@@ -17,5 +17,8 @@ Please contact me if you are interested, as this is my professional portfolio. M
 
 Link to deployed website: 
 
+
+
+
 Still image of portfolio page: 
-![react professional portfolio]()
+![react-professional-portfolio](public/images/screen.png)
