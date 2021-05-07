@@ -16,7 +16,7 @@ This is a porfolio created to show skills acquired during my 12 week coding boot
 Please contact me if you are interested, as this is my professional portfolio. My email is dobsonemily@gmail.com
 
 Link to deployed website: 
-
+https://emilydobson.netlify.app/
 
 
 
