@@ -1,9 +1,8 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import { Document } from 'react-pdf'
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const location = useLocation();
+ 
 
   function toggleBurgerMenu() {
     document.querySelector(".navbar-menu").classList.toggle("is-active");
