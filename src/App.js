@@ -11,7 +11,7 @@ import Resume from "./components/pages/Resume";
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div>
         <Navbar />
         <Hero/>
@@ -22,7 +22,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    // </Router>
   );
 }
 
